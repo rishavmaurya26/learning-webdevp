@@ -35,8 +35,8 @@ div.sect {
       padding: 1%;
       width:30%;
       box-sizing: border-box;
-      border-bottom: indigo solid 2px;
-      border-left: indigo solid 2px;
+      border-bottom: indigo solid 1px;
+      border-left: indigo solid 1px;
       position: absolute;
       margin-bottom: 2%;
       top: 0.4%;
