@@ -35,11 +35,12 @@ div.sect {
       padding: 1%;
       width:30%;
       box-sizing: border-box;
-      border: indigo solid 2px;
+      border-bottom: indigo solid 2px;
+      border-left: indigo solid 2px;
       position: absolute;
       margin-bottom: 2%;
-      top: 0;
-      right: 0%;
+      top: 0.4%;
+      right: 0.06%;
       margin-bottom: 4;
       }
 
