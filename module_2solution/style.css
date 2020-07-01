@@ -1,0 +1,98 @@
+
+* {
+    margin: 0%;
+    padding:0%;
+    }
+
+h1{
+   
+    font-size: 175%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    margin-left: 44%;
+    
+}
+
+
+div.sect {
+  text-align: left;
+  background-color: rgba(245, 149, 105, 0.911);
+  display: block;
+  float:left;
+  position: relative;
+  padding: 20px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  border: indigo solid 2px;
+  }
+  p {
+      margin-top: 4px;
+  }
+  
+
+  div.title {
+      
+      padding: 1%;
+      width:30%;
+      box-sizing: border-box;
+      border: indigo solid 2px;
+      position: absolute;
+      margin-bottom: 2%;
+      top: 0;
+      right: 0%;
+      margin-bottom: 4;
+      }
+
+div#Chicken, #Chicken > h2  {
+        background-color: greenyellow;
+        margin-left: 22%;
+        }
+div#Beef, #Beef > h2 {
+    background-color: plum;
+    margin-left: 36%;
+}
+div#Sushi, #Sushi > h2 {
+    background-color: rgba(238, 255, 0, 0.904);
+    margin-left: 39%;
+}
+
+  @media (min-width: 992px) {
+div.sect{
+    width: 30%;
+    float: left;
+
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+}
+  @media (min-width: 768px) and (max-width: 991px) {
+    #chick, #bee {
+        width:46.25%;
+        float:left;
+        margin-left:2.5%;
+        margin-top:3%;
+    }
+
+    #sush {
+        width:95%;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+      div.sect {
+        width:90%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+
+      }
+
+  }
+h2 {
+font-size: 125%; 
+
+ }
+   
+
