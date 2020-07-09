@@ -54,7 +54,7 @@ div#Beef, #Beef > h2 {
 }
 div#Sushi, #Sushi > h2 {
     background-color: rgba(238, 255, 0, 0.904);
-    margin-left: 39%;
+    margin-left: 36%;
 }
 
   @media (min-width: 992px) {
