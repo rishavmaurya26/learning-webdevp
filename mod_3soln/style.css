@@ -22,13 +22,19 @@ body {
 }
 .navbar-collapse {
     border: 1.5px solid black;
-    background-color: rgba(252, 178, 191, 0.521);
+    background-color: rgba(209, 95, 19, 0.836);
+    width: 100%;
+}
+
+#collapse-bar {
+    
     width: 100%;
 }
 #BEEF {
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
 }
+
 
 @media (min-width: 450px) {
 .navbar-collapse , .navbar-toggler{
