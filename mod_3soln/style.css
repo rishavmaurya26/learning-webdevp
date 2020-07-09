@@ -30,10 +30,12 @@ body {
     border-bottom: 1.5px solid black;
 }
 
-@media (min-width: 992px) {
-.navbar-collapse {
+@media (min-width: 400px) {
+.navbar-collapse , .navbar-toggler{
     visibility: hidden;
-}}
+}
+
+}
 
 h1 {
     margin: 20px auto;
