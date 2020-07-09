@@ -1,0 +1,61 @@
+body {
+    height:2000px;
+}
+
+
+#navbarNav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.navbar-toggler {
+    margin-bottom: 5px;
+    border: 1.5px solid ;
+    
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.4 em;
+}
+.navbar-collapse {
+    border: 1.5px solid black;
+    background-color: rgba(252, 178, 191, 0.521);
+    width: 100%;
+}
+#BEEF {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+@media (min-width: 992px) {
+.navbar-collapse {
+    visibility: hidden;
+}}
+
+h1 {
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7 em;
+    font-weight: 600;
+}
+#chicken {
+    width:90%;
+    margin: 20px auto;
+    background-color: rgba(228, 230, 125, 0.726);
+}
+
+#beef {
+    width:90%;
+    margin: 10px auto;
+    background-color: rgba(228, 230, 125, 0.726);
+}
+
+#sushi {
+    width:90%;
+    margin: 10px auto;
+    background-color: rgba(228, 230, 125, 0.726);
+}
+
